@@ -1,0 +1,4 @@
+<p>exercice-details works!</p>
+<button mat-mini-fab color="warn" (click)="goBack()"><mat-icon>arrow_back</mat-icon></button><br><br>
+
+<app-exercice-card [selectedExercice]="exercice | async" (received)="showReceivedValue($event)"></app-exercice-card>

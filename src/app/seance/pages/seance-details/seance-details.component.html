@@ -1,0 +1,4 @@
+<p>seance-details works!</p>
+<button mat-mini-fab color="warn" (click)="goBack()"><mat-icon>arrow_back</mat-icon></button><br><br>
+
+<app-seance-card [selectedSeance]="seance | async" (received)="showReceivedValue($event)"></app-seance-card>
