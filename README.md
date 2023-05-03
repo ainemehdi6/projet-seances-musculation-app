@@ -1,2 +1,2 @@
-# projet-seances-musculation-ap
+# projet-seances-musculation-app
  
