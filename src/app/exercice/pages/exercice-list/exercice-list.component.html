@@ -2,8 +2,8 @@
     <h1>Liste des Exercices</h1>
 </div>
 <div class="container">
-    <div class="card-container" style="display: flex;">
-        <div *ngFor="let element of exercices | async" style="margin: 20px;width:50%">
+    <div class="card-container" style="display: flex;flex-wrap: wrap;">
+        <div *ngFor="let element of exercices | async" style="margin: 20px;padding:10px;flex-basis: 40%;">
             <mat-card class="example-card">
                 <mat-card-header>
                     <mat-card-title>{{element.name}}</mat-card-title>

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "iut-app": {
+    "seances-musculation-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/iut-app",
+            "outputPath": "dist/seances-musculation-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "iut-app:build:production"
+              "browserTarget": "seances-musculation-app:build:production"
             },
             "development": {
-              "browserTarget": "iut-app:build:development"
+              "browserTarget": "seances-musculation-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "iut-app:build"
+            "browserTarget": "seances-musculation-app:build"
           }
         },
         "test": {
@@ -111,9 +111,9 @@
           "options": {
             "prerender": false,
             "ssr": false,
-            "browserTarget": "iut-app:build:production",
-            "firebaseProject": "lp-dim-iut-app-test",
-            "firebaseHostingSite": "lp-dim-iut-app-test"
+            "browserTarget": "seances-musculation-app:build:production",
+            "firebaseProject": "lp-dim-seances-musculation-app-test",
+            "firebaseHostingSite": "lp-dim-seances-musculation-app-test"
           }
         }
       }
